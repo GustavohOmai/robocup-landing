@@ -51,7 +51,7 @@ body{
     display: flex;
     flex-direction: column;
     min-width: 0;
-    height: var(--bs-card-height);
+    height: 100% ;
     word-wrap: break-word;
     background-color: var(--bs-card-bg);
     background-clip: border-box;
@@ -69,12 +69,22 @@ body{
     height: 100vh;
 }
 
+.armabg{
+    background-image: url(../images/Group\ 7.png);
+    background-size: cover;
+    height: 100vh;
+}
+
 .width{
     width: 95vw;
 }
 
 .height100{
     height: 100vh;
+}
+
+.width100{
+    max-width: 90%;
 }
 
 .ironman{
@@ -96,4 +106,12 @@ body{
     border: #EDCA58 0px solid;
     background: linear-gradient(270deg, rgba(255,199,0,1) 0%, rgba(220,1,1,1) 71%);
     border-radius: 100px;
+}
+
+.radialbg{
+    background: rgba( 255, 255, 255, 0.3 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
