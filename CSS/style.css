@@ -161,3 +161,14 @@ body{
     background-color: var(--bs-accordion-bg);
     border: transparent;
   }
+
+textarea{
+    resize: none;
+}
+
+
+.bg-secondary {
+    --bs-bg-opacity: 1;
+    background: rgb(255,199,0);
+background: linear-gradient(306deg, rgba(255,199,0,1) 0%, rgba(220,1,1,1) 100%) !important;
+  }
