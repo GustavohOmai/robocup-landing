@@ -16,7 +16,14 @@ body{
     --bs-btn-disabled-color: #fff;
     --bs-btn-disabled-bg: #EEA009;
     --bs-btn-disabled-border-color: #EEA009;
+    background: linear-gradient(180deg, rgba(255,199,0,1) 0%, rgb(255, 145, 0) 100%)!important;
     padding: 10px 5rem;
+    border-radius: 70px;
+    transition: .5s;
+}
+
+.btn-success:hover{
+    background: linear-gradient(0deg, rgba(255,172,54,1) 100%, rgba(255,201,130,1) 0%)!important;
 }
 
 .bg-dark {
