@@ -37,22 +37,27 @@
                 <div class="collapse navbar-collapse me-5" id="navbarSupportedContent">
                     <ul class="navbar-nav me-5 mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Robô</a>
+                            <span><a class="nav-link active" aria-current="page" href="#">Robô</a></span>
+                            
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Startup</a>
+                            <span><a class="nav-link active" href="#">Startup</a></span> 
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Galeria</a>
+                            <span><a class="nav-link active" href="#">Galeria</a></span>
+                            
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Robocup</a>
+                            <span><a class="nav-link active" href="#">Robocup</a></span>
+                            
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Grupo</a>
+                            <span><a class="nav-link active" href="#">Grupo</a></span>
+                            
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Contato</a>
+                            <span><a class="nav-link active" href="#">Contato</a></span>
+                            
                         </li>
                     </ul>
                 </div>
@@ -262,7 +267,7 @@
         <div class="container">
             <div class="row my-5 d-flex align-items-center">
                 <div class="col-sm-12 col-md-8 mt-5">
-                    <img src="images/arma.png" alt="" class="img-fluid">
+                    <img src="images/arma.png" alt="" class="img-fluid armaanimation">
                 </div>
 
                 <div
@@ -464,56 +469,57 @@
     </article>
 
     <section>
-    
+
         <div class="container mb-5">
 
-        <div class="container d-flex justify-content-center">
-            <div class="mt-5 d-flex flex-column align-items-center">
-                <div class="title">
-                    <h2 class="fw-bold fs-1">Contato</h2>
-                    <div class="underline"></div>
+            <div class="container d-flex justify-content-center">
+                <div class="mt-5 d-flex flex-column align-items-center">
+                    <div class="title">
+                        <h2 class="fw-bold fs-1">Contato</h2>
+                        <div class="underline"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-5">
+                <div class="col-sm-12 col-md-6 mt-5 d-flex flex-column justify-content-center">
+                    <div class="text-start">
+                        <form method="post" name="dados" id="dados" action="">
+                            <label for="nome" class="form-label text-light"></label>
+                            <input type="text" name="nome" id="nome" class="form-control " placeholder="Nome">
+
+                            <label for="email" class="form-label text-light"></label>
+                            <input type="email" id="email" name="email" class="form-control" placeholder="Email">
+
+                            <label for="number" class="form-label text-light"></label>
+                            <input type="number" id="phone" name="phone" class="form-control" placeholder="Telefone">
+
+
+                            <label for="msg" class="form-label text-light "></label>
+                            <textarea name="msg" id="msg" class="form-control" rows="6"
+                                placeholder="Conte um pouco da sua dúvida:"></textarea>
+
+                            <div class="d-flex justify-content-end">
+                                <button type="submit" class="btn btn-success text-end mt-3">Enviar</button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 mt-5">
+                    <img src="./images/contato.svg" alt="" class="img-fluid">
                 </div>
             </div>
         </div>
-        
-        <div class="row mb-5">
-            <div class="col-sm-12 col-md-6 mt-5 d-flex flex-column justify-content-center">
-                <div class="text-start">
-                    <form method="post" name="dados" id="dados" action="">
-                      <label for="nome" class="form-label text-light"></label>
-                      <input type="text" name="nome" id="nome" class="form-control " placeholder="Nome">
-          
-                      <label for="email" class="form-label text-light"></label>
-                      <input type="email" id="email" name="email" class="form-control" placeholder="Email">
-
-                      <label for="number" class="form-label text-light"></label>
-                      <input type="number" id="phone" name="phone" class="form-control" placeholder="Telefone">
-
-          
-                      <label for="msg" class="form-label text-light "></label>
-                      <textarea name="msg" id="msg" class="form-control" rows="6" placeholder="Conte um pouco da sua dúvida:"></textarea>
-          
-                      <div class="d-flex justify-content-end">
-                        <button type="submit" class="btn btn-success text-end mt-3">Enviar</button>
-                      </div>
-          
-                    </form>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-6 mt-5">
-                <img src="./images/contato.svg" alt="" class="img-fluid">
-            </div>
-        </div>
-    </div>
     </section>
 
     <footer class="bg-secondary mt-5">
         <div class="container mt-5">
             <div class="row">
-                <div class="col-sm-12 col-md-6 d-flex align-items-center justify-content-center">
+                <div class="col-sm-12 col-md-6 d-flex align-items-center justify-content-center mt-5">
                     <img src="./images/image 6.png" alt="" class="w-75">
                 </div>
-                <div class="col-sm-12 col-md-6 d-flex align-items-center justify-content-center">
+                <div class="col-sm-12 col-md-6 d-flex align-items-center justify-content-center mt-5">
                     <img src="./images/image 5.png" alt="" class="w-75">
                 </div>
             </div>

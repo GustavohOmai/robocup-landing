@@ -130,7 +130,22 @@ body{
 
 .ironman{
     width: 70%;
+    transition: .5s;
 }
+
+.ironman:hover{
+    transform: scale(1.1);
+}
+
+.armaanimation{
+    transition: .5s;
+}
+
+.armaanimation:hover{
+    transform: scale(1.1);
+}
+
+
 
 .min{
     width: max-content;
@@ -172,3 +187,29 @@ textarea{
     background: rgb(255,199,0);
 background: linear-gradient(306deg, rgba(255,199,0,1) 0%, rgba(220,1,1,1) 100%) !important;
   }
+
+  span {
+    display: inline-block;
+    position: relative;
+    color: white;
+}
+
+span:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(270deg, rgba(255,199,0,1) 0%, rgba(220,1,1,1) 71%);
+    transform-origin: bottom left;
+    transition: transform 0.25s ease-out
+
+}
+
+span:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
