@@ -44,3 +44,8 @@ body{
 .min{
     width: max-content;
 }
+
+.img-next{
+    width: 50%;
+    height: 100%;
+}
