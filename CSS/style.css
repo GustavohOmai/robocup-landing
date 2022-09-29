@@ -17,7 +17,13 @@ body{
     --bs-btn-disabled-bg: #EEA009;
     --bs-btn-disabled-border-color: #EEA009;
     padding: 10px 5rem;
-  }
+}
+
+.bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: #F5F7FB !important;
+}
+
 
 .logo{
     font-family: 'Alfa Slab One', cursive;  
@@ -48,4 +54,12 @@ body{
 .img-next{
     width: 50%;
     height: 100%;
+}
+
+.underline{
+    height: 4px;
+    width: 100%;
+    border: #EDCA58 0px solid;
+    background: linear-gradient(270deg, rgba(255,199,0,1) 0%, rgba(220,1,1,1) 71%);
+    border-radius: 100px;
 }
