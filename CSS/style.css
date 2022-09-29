@@ -188,13 +188,13 @@ textarea{
 background: linear-gradient(306deg, rgba(255,199,0,1) 0%, rgba(220,1,1,1) 100%) !important;
   }
 
-  span {
+  .navanimation{
     display: inline-block;
     position: relative;
     color: white;
 }
 
-span:after {
+.navanimation:after {
     content: '';
     position: absolute;
     width: 100%;
@@ -208,8 +208,14 @@ span:after {
 
 }
 
-span:hover:after {
+.navanimation:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
+
+@media only screen and (max-width: 600px) {
+    .collapse{
+        background: #F5F7FB;
+    }
+  }
 

@@ -37,27 +37,29 @@
                 <div class="collapse navbar-collapse me-5" id="navbarSupportedContent">
                     <ul class="navbar-nav me-5 mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <span><a class="nav-link active" aria-current="page" href="#">Robô</a></span>
+                            <span class="navanimation"><a class="nav-link active" aria-current="page" href="#">Robô</a></span>
                             
                         </li>
                         <li class="nav-item">
-                            <span><a class="nav-link active" href="#">Startup</a></span> 
+                            <span class="navanimation"><a class="nav-link active" href="#next">Robocup</a></span> 
                         </li>
                         <li class="nav-item">
-                            <span><a class="nav-link active" href="#">Galeria</a></span>
+                            <span class="navanimation"><a class="nav-link active" href="#galeria">Galeria</a></span>
                             
                         </li>
                         <li class="nav-item">
-                            <span><a class="nav-link active" href="#">Robocup</a></span>
+                            <span class="navanimation"><a class="nav-link active" href="#hardware">Hardware</a></span>
                             
                         </li>
                         <li class="nav-item">
-                            <span><a class="nav-link active" href="#">Grupo</a></span>
+                            <span class="navanimation"><a class="nav-link active" href="#grupo">Grupo</a></span>
                             
                         </li>
                         <li class="nav-item">
-                            <span><a class="nav-link active" href="#">Contato</a></span>
-                            
+                            <span class="navanimation"><a class="nav-link active" href="#contato">Contato</a></span>
+                        </li>
+                        <li class="nav-item">
+                            <span class="navanimation"><a class="nav-link active" href="#startup">Startup</a></span>
                         </li>
                     </ul>
                 </div>
@@ -65,7 +67,7 @@
         </div>
     </header>
 
-    <section class="robo">
+    <section class="robo" id="robo">
         <div class="container height100 d-flex">
             <div class="row align-content-center d-flex mt-5">
                 <div
@@ -74,7 +76,7 @@
                     <p class="my-5">O Wall-e é um projeto de um carrinho para a robocup de 2022, que tenciona a
                         integração das disciplinas e dos alunos do 1º ano do curso de Sistemas de Informação em 2022.
                     </p>
-                    <a href="" class="btn btn-success min">Confira</a>
+                    <a href="#video" class="btn btn-success min">Confira</a>
                 </div>
 
                 <div class="col-sm-12 col-md-6 d-flex justify-content-center">
@@ -85,7 +87,7 @@
         </div>
     </section>
 
-    <article>
+    <article id="next">
 
         <div class="container">
 
@@ -115,7 +117,7 @@
 
     </article>
 
-    <article class="bg-dark">
+    <article class="bg-dark" id="galeria">
         <div class="container d-flex flex-column justify-content-center align-items-center">
             <div class="title my-5">
                 <h2 class="fw-bold fs-1">Galeria</h2>
@@ -166,7 +168,7 @@
 
     </article>
 
-    <section>
+    <section id="hardware">
 
         <div class="container d-flex flex-column justify-content-center align-items-center">
             <div class="title my-5">
@@ -263,7 +265,7 @@
 
     </section>
 
-    <section class="armabg height100">
+    <section class="armabg height100" id="arma">
         <div class="container">
             <div class="row my-5 d-flex align-items-center">
                 <div class="col-sm-12 col-md-8 mt-5">
@@ -286,7 +288,7 @@
         </div>
     </section>
 
-    <!-- <section>
+    <section id="video">
     
         <div class="container">
 
@@ -312,10 +314,10 @@
             </div>
         </div>
     </div>
-    </section> -->
+    </section>
 
 
-    <article class="bg-dark">
+    <article class="bg-dark" id="grupo">
 
         <div class="container d-flex justify-content-center">
             <div class="mt-5 d-flex flex-column align-items-center">
@@ -468,7 +470,7 @@
 
     </article>
 
-    <section>
+    <section id="contato">
 
         <div class="container mb-5">
 
